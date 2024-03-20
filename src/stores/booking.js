@@ -15,32 +15,35 @@ export const useBookingStore = defineStore('booking', () => {
     const bookings = ref([])
     const bookingDataObject = ref(bookingData)
   
-    function createAPI() {
-      fetch('http://localhost:3000/bookings')
-      .then(res => res.json())
-      .then(data => {bookings.value = data});
+    async function createAPI() {
+      try {
+        const response = await fetch('http://localhost:3000/bookings')
 
-      console.log("Berhasil");
-      console.log(bookingDataObject.value);
-      console.log(parseInt(bookings.value[bookings.value.length-1].id)+1);
-    
-      bookingDataObject.value.id = parseInt(bookings.value[bookings.value.length-1].id)+1;
-
+        bookings.value = await response.json();
+      
+        bookingDataObject.value.id = parseInt(bookings.value[bookings.value.length-1].id)+1;
   
-      fetch('http://localhost:3000/bookings', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json'
-        },
-        body: JSON.stringify(bookingDataObject.value)
-      })
-      .then(response => {
-        if (!response.ok) {
-          throw new Error('Failed to create data');
-        }
-        return response.json();
-      })
-      .then(data => {console.log("Success");});
+    
+        const sendResponse = await fetch('http://localhost:3000/bookings', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json'
+          },
+          body: JSON.stringify(bookingDataObject.value)
+        })
+
+        bookingDataObject.value.booking_date = ''
+        bookingDataObject.value.name = ''
+        bookingDataObject.value.people = 1
+        bookingDataObject.value.special_request = ''
+        bookingDataObject.value.email = ''
+
+        return true
+        
+      } catch (error) {
+        console.log(error);
+        return false;
+      }
     }
 
     return {bookingData, createAPI}

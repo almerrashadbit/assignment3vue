@@ -12,7 +12,7 @@
   
 </template>
 
-<style>
+<style scoped>
   .box {
     display: inline-block;
     text-align: center;

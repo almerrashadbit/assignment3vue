@@ -3,9 +3,9 @@
     {
       "id": "1",
       "name": "Chicken Burger",
-      "price": "$115",
-      "detail": "Ipsum ipsum clita erat amet dolor justo diam",
-      "image": "/src/assets/img/menu-1.jpg"
+      "price": 115,
+      "detail": "Ipsum ipsum clita erat amet dolor justo diam\n",
+      "image": "Ipsum ipsum clita erat amet dolor justo diam"
     },
     {
       "id": "2",
@@ -55,6 +55,13 @@
       "price": "$115",
       "detail": "Ipsum ipsum clita erat amet dolor justo diam",
       "image": "/src/assets/img/menu-8.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Chicken Burger",
+      "price": 115,
+      "detail": "Ipsum ipsum clita erat amet dolor justo diam\n",
+      "image": "Ipsum ipsum clita erat amet dolor justo diam"
     }
   ],
   "bookings": [
@@ -68,180 +75,13 @@
       "id": "1"
     },
     {
-      "id": "2ca2",
-      "__v_isShallow": false,
-      "__v_isRef": true,
-      "_rawValue": {
-        "name": "schedule",
-        "email": "ecdw@fde.com",
-        "people": 1,
-        "booking_date": "2024-03-12T17:37",
-        "special_request": "",
-        "created_date": "2024-03-13",
-        "id": "11"
-      },
-      "_value": {
-        "name": "schedule",
-        "email": "ecdw@fde.com",
-        "people": 1,
-        "booking_date": "2024-03-12T17:37",
-        "special_request": "",
-        "created_date": "2024-03-13",
-        "id": "11"
-      }
-    },
-    {
-      "id": "2ca21",
-      "name": "schedule",
-      "email": "ecdw@fde.com",
-      "people": 1,
-      "booking_date": "2024-03-20T17:41",
-      "special_request": "",
-      "created_date": "2024-03-13"
-    },
-    {
-      "id": "2ca211",
-      "name": "schedule",
-      "email": "ecdw@fde.com",
-      "people": 1,
-      "booking_date": "2024-03-20T17:41",
-      "special_request": "",
-      "created_date": "2024-03-13"
-    },
-    {
-      "id": "2ca2111",
-      "name": "schedule",
-      "email": "ecdw@fde.com",
-      "people": 1,
-      "booking_date": "2024-03-08T17:42",
-      "special_request": "",
-      "created_date": "2024-03-13"
-    },
-    {
-      "id": "2ca21111",
-      "name": "schedule",
-      "email": "ecdw@fde.com",
-      "people": 1,
-      "booking_date": "2024-03-08T17:42",
-      "special_request": "",
-      "created_date": "2024-03-13"
-    },
-    {
-      "id": "2ca211111",
-      "name": "schedule",
-      "email": "ecdw@fde.com",
-      "people": 1,
-      "booking_date": "2024-03-08T17:42",
-      "special_request": "",
-      "created_date": "2024-03-13"
-    },
-    {
-      "id": "2ca2111111",
-      "name": "schedule",
-      "email": "ecdw@fde.com",
-      "people": 1,
-      "booking_date": "2024-03-07T17:43",
-      "special_request": "",
-      "created_date": "2024-03-13"
-    },
-    {
-      "id": "2ca21111111",
-      "name": "schedule",
-      "email": "ecdw@fde.com",
-      "people": 1,
-      "booking_date": "2024-03-07T17:43",
-      "special_request": "",
-      "created_date": "2024-03-13"
-    },
-    {
-      "id": "2ca211111111",
-      "name": "schedule",
-      "email": "ecdw@fde.com",
-      "people": 1,
-      "booking_date": "2024-03-07T17:43",
-      "special_request": "",
-      "created_date": "2024-03-13"
-    },
-    {
-      "id": "2ca2111111111",
-      "name": "schedule",
-      "email": "ecdw@fde.com",
-      "people": 1,
-      "booking_date": "2024-03-07T17:43",
-      "special_request": "",
-      "created_date": "2024-03-13"
-    },
-    {
-      "id": "2ca21111111111",
-      "name": "schedule",
-      "email": "ecdw@fde.com",
-      "people": 1,
-      "booking_date": "2024-03-06T17:44",
-      "special_request": "",
-      "created_date": "2024-03-13"
-    },
-    {
-      "id": "2ca211111111111",
-      "name": "schedule",
-      "email": "ecdw@fde.com",
-      "people": 1,
-      "booking_date": "2024-03-06T17:44",
-      "special_request": "",
-      "created_date": "2024-03-13"
-    },
-    {
-      "id": "2ca2111111111111",
-      "name": "schedule",
-      "email": "ecdw@fde.com",
-      "people": 1,
-      "booking_date": "2024-03-20T17:46",
-      "special_request": "",
-      "created_date": "2024-03-13"
-    },
-    {
-      "id": "2ca21111111111111",
-      "name": "schedule",
-      "email": "ecdw@fde.com",
-      "people": 1,
-      "booking_date": "2024-03-06T17:48",
-      "special_request": "",
-      "created_date": "2024-03-13"
-    },
-    {
-      "id": "2ca211111111111111",
-      "name": "schedule",
-      "email": "ecdw@fde.com",
-      "people": 1,
-      "booking_date": "2024-03-14T17:49",
-      "special_request": "",
-      "created_date": "2024-03-13"
-    },
-    {
-      "id": "2ca2111111111111111",
-      "name": "schedule",
-      "email": "ecdw@fde.com",
-      "people": 1,
-      "booking_date": "2024-03-14T17:49",
-      "special_request": "",
-      "created_date": "2024-03-13"
-    },
-    {
-      "id": 3,
-      "name": "schedule",
-      "email": "ecdw@fde.com",
-      "people": 1,
-      "booking_date": "2024-03-15T17:51",
-      "special_request": "",
-      "created_date": "2024-03-13"
-    },
-    {
-      "id": 4,
-      "name": "schedule",
-      "email": "ecdw@fde.com",
-      "people": 1,
-      "booking_date": "2024-03-15T17:51",
-      "special_request": "",
-      "created_date": "2024-03-13"
+      "id": 2,
+      "name": "Lala",
+      "email": "pravida@hacktiv8.com",
+      "people": 13,
+      "booking_date": "2024-03-20T20:36",
+      "special_request": "No",
+      "created_date": "2024-03-20"
     }
   ]
 }
